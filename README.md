@@ -2,7 +2,7 @@
 
 
 # Getting Started with Apache Cassandra™ and C# using DataStax Astra 
-This web application is a demo using astra-csharp client library.
+This web application is a demo using astra-csharp client library. It allows to make queries on Astra Cassandra using cql language.
 
 # Config
 
