@@ -59,7 +59,7 @@ namespace web_ui.Controllers
                     resultTable.Columns.Add(col.Name);
                 }
 
-                return View("QueryEditor2", resultTable);
+                return View("QueryEditor", resultTable);
             }
             catch(Exception ex)
             {
@@ -101,6 +101,13 @@ namespace web_ui.Controllers
             else
                 return (row.GetValue(row[i].GetType(),i)==null) ? string.Empty : row.GetValue(row[i].GetType(),i).ToString();
 
+        }
+
+        [HttpGet]
+        [Route("/")]
+        public IActionResult Index()
+        {
+            return View("QueryEditor");
         }
     }
 }
