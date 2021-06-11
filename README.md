@@ -1,4 +1,5 @@
-![alt tag](https://github.com/felipecembranelli/astra-poc/blob/master/astra-poc/doc/datastax.png)
+![alt tag](https://github.com/felipecembranelli/astra-poc/blob/master/doc/datastax.png)
+
 
 # Getting Started with Apache Cassandra™ and C# using DataStax Astra 
 This web application is a demo using astra-csharp client library.
@@ -36,6 +37,6 @@ dotnet run
 
 # Sample Screens
 
-![alt tag](https://github.com/felipecembranelli/astra-poc/blob/master/astra-poc/doc/mainpage.png)
+![alt tag](https://github.com/felipecembranelli/astra-poc/blob/master/doc/mainpage.png)
 
 
